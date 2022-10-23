@@ -2,19 +2,19 @@ title The Swapper
 author Letheward
 homepage letheward.github.io
 
-(key_repeat_interval 0.05)
+key_repeat_interval 0.1
 
-========
+
+===================
 OBJECTS
-========
 
 Background
 lightgreen green
 11111
+11011
 01111
-11101
 11111
-10111
+11101
 
 
 Target
@@ -36,11 +36,11 @@ gray darkgray
 
 
 Player
-black orange white blue
+black lightbrown white blue
 .000.
-.111.
+.011.
 22222
-.333.
+13331
 .3.3.
 
 
@@ -54,9 +54,8 @@ orange brown
 
 
 
-=======
+===================
 LEGEND
-=======
 
 . = Background
 # = Wall
@@ -66,9 +65,10 @@ P = Player
 O = Target
 
 
-=======
+
+===================
 SOUNDS
-=======
+
 
 StartGame   65327508
 Restart     81773708
@@ -78,33 +78,32 @@ EndLevel    19675300
 sfx0        38598703
 
 
-================
+
+===================
 COLLISIONLAYERS
-================
+
 
 Background
 Target
 Player, Wall, Crate
 
 
-======
+===================
 RULES
-======
 
 [ > Player | ... | Crate ] -> [ Crate | ... | Player ] sfx0
 
 
-
-==============
+===================
 WINCONDITIONS
-==============
 
 all Crate on Target
 
 
-=======
+
+===================
 LEVELS
-=======
+
 
 message Swapper
 
@@ -126,10 +125,12 @@ message Knot
 
 message The Impossible
 
+(Maybe necessary, because "The Impossible 2" is maybe not that obvious for new players to figure out.)
+
 #######
 #.#.*o#
 #.#####
-#..p###
+#p....#
 #######
 
 
@@ -156,6 +157,8 @@ message Trap
 
 message The Impossible 2
 
+(feels redundant, see "The Impossible")
+
 ######
 #o.*.#
 #.##p#
@@ -177,6 +180,8 @@ message Offset
 
 message Knot 3
 
+(a bit grindy)
+
 #######
 #.*o..#
 #.#.#*#
@@ -186,7 +191,26 @@ message Knot 3
 #######
 
 
+message Castle
+
+(need some work)
+
+###########
+#.........#
+#*##.#.##.#
+#.#.p#o.#.#
+#....#....#
+#.#######.#
+#..*.#.o..#
+#.#o.#..#.#
+#.##.#.##.#
+#......*..#
+###########
+
+
 message The Altar
+
+(maybe too much)
 
 #########
 #*.....*#
