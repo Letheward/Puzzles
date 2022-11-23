@@ -108,7 +108,11 @@ LEVELS
 message Swapper
 
 #######
-#p.*.o#
+#o*..o#
+#.###*#
+#.#...#
+#p#.###
+#.#.*o#
 #######
 
 
@@ -125,10 +129,9 @@ message Knot
 
 message The Impossible
 
-(Maybe necessary, because "The Impossible 2" is maybe not that obvious for new players to figure out.)
-
 #######
-#.#.*o#
+#.#*#o#
+#.#...#
 #.#####
 #p....#
 #######
@@ -157,7 +160,7 @@ message Trap
 
 message The Impossible 2
 
-(feels redundant, see "The Impossible")
+(makes this better)
 
 ######
 #o.*.#
@@ -165,6 +168,23 @@ message The Impossible 2
 #*##.#
 #.##o#
 ######
+
+
+message Castle
+
+(need some work)
+
+###########
+#.........#
+#*##.#.##.#
+#.#.p#o.#.#
+#....#....#
+#.#######.#
+#..*.#.o..#
+#.#o.#..#.#
+#.##.#.##.#
+#......*..#
+###########
 
 
 message Offset
@@ -191,26 +211,9 @@ message Knot 3
 #######
 
 
-message Castle
-
-(need some work)
-
-###########
-#.........#
-#*##.#.##.#
-#.#.p#o.#.#
-#....#....#
-#.#######.#
-#..*.#.o..#
-#.#o.#..#.#
-#.##.#.##.#
-#......*..#
-###########
-
-
 message The Altar
 
-(maybe too much)
+(a bit grindy)
 
 #########
 #*.....*#
