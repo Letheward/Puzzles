@@ -91,6 +91,8 @@ Player, Wall, Crate
 ===================
 RULES
 
+(this also let players swap through walls)
+
 [ > Player | ... | Crate ] -> [ Crate | ... | Player ] sfx0
 
 
@@ -103,6 +105,8 @@ all Crate on Target
 
 ===================
 LEVELS
+
+
 
 
 message Swapper
@@ -209,6 +213,20 @@ message Knot 3
 #.#.#*#
 #..o*.#
 #######
+
+
+message Messenger
+
+(need more work, maybe make this harder, but the idea is here)
+
+#####.#..#####
+#.o.###.##...#
+#...#....#.*.#
+#*..#.##.#o..#
+#.p.#.#..#...#
+#..*#.####..o#
+#o..#....#.*.#
+########.#####
 
 
 message The Altar
